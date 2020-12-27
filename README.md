@@ -1,10 +1,10 @@
-# Drons Settings Plugins
+# Drone Settings Plugins
 
 [![Build Status](https://cloud.drone.io/api/badges/khmarbaise/drone-settings/status.svg)](https://cloud.drone.io/khmarbaise/drone-settings)
 
 # Status
 
-The current state of development is `Prototype`.
+The current state of development is `Prototype`. Not usable at the moment.
 
 # Overview
 
