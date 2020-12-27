@@ -2,6 +2,10 @@
 
 [![Build Status](https://cloud.drone.io/api/badges/khmarbaise/drone-settings/status.svg)](https://cloud.drone.io/khmarbaise/drone-settings)
 
+# Status
+
+The current state of development is `Prototype`.
+
 # Overview
 
 This represents a Drone.io plugin to handle `settings.xml` for Maven based builds.
