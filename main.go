@@ -7,12 +7,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/khmarbaise/drone-settings/cmd"
+	"github.com/urfave/cli/v2"
 	"os"
 	"strings"
-
-	"github.com/khmarbaise/christmastree/cmd"
-
-	"github.com/urfave/cli/v2"
 )
 
 // Version holds the current tea version

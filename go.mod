@@ -1,4 +1,4 @@
-module github.com/khmarbaise/christmastree
+module github.com/khmarbaise/drone-settings
 
 go 1.15
 
