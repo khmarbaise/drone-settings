@@ -1,0 +1,7 @@
+drone-settings
+/gitea-vet
+
+.idea/
+.history/
+dist/
+coverage.out
