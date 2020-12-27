@@ -187,3 +187,8 @@ Added server entries with support for keys:
 </settings>
 
 ```
+
+
+The idea is to have within a drone pipeline the options to define a 
+user defined `settings.xml` which can be enhanced with entries for servers etc.
+to make deployment to a repository manager easy possible.
