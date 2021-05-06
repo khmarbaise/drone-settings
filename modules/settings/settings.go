@@ -29,7 +29,7 @@ type Settings struct {
 			ID           string `xml:"id"`
 			Repositories struct {
 				Text       string `xml:",chardata"`
-				Repository struct {
+				Repository []struct {
 					Text     string `xml:",chardata"`
 					ID       string `xml:"id"`
 					URL      string `xml:"url"`
@@ -47,7 +47,7 @@ type Settings struct {
 			} `xml:"repositories"`
 			PluginRepositories struct {
 				Text             string `xml:",chardata"`
-				PluginRepository struct {
+				PluginRepository []struct {
 					Text     string `xml:",chardata"`
 					ID       string `xml:"id"`
 					URL      string `xml:"url"`

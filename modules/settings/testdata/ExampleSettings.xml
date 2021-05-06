@@ -26,6 +26,7 @@
             <enabled>true</enabled>
             <checksumPolicy>fail</checksumPolicy>
           </snapshots>
+          <layout>default</layout>
         </repository>
       </repositories>
       <pluginRepositories>
