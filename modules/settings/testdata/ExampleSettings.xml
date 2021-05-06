@@ -45,9 +45,9 @@
       </pluginRepositories>
     </profile>
     <profile>
-      <id>apache-release</id>
+      <id>release-number-one</id>
       <properties>
-        <gpg.keyname>160788A2</gpg.keyname>
+        <gpg.keyname>1234567890</gpg.keyname>
       </properties>
     </profile>
   </profiles>
@@ -58,7 +58,7 @@
 
   <servers>
     <server>
-      <id>mavencasts.com</id>
+      <id>test.com</id>
       <username>root</username>
       <privateKey>/Users/ivanhoe/xyz.ppk</privateKey>
     </server>
@@ -66,7 +66,7 @@
     <server>
       <id>stagingSite</id> <!-- must match hard-coded repository identifier in site:stage-deploy -->
       <username>user</username>
-      <password>{fsPqBHSSFQIH+velFoxYZiUBs7uuN25/KP8o61kNS00=}</password>
+      <password>{XXXXX}</password>
       <filePermissions>664</filePermissions>
       <directoryPermissions>775</directoryPermissions>
     </server>
