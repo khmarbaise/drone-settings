@@ -31,7 +31,7 @@ An example for such `settings.xml` looks like the following:
       -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://192.168.0.110:8081/repository/maven-public</url>
+      <url>http://ip:8081/repository/maven-public</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -146,7 +146,7 @@ Added server entries with support for keys:
     <profile>
       <id>apache-release</id>
       <properties>
-        <gpg.keyname>160788A2</gpg.keyname>
+        <gpg.keyname>11111111</gpg.keyname>
       </properties>
     </profile>
   </profiles>
@@ -157,15 +157,15 @@ Added server entries with support for keys:
 
   <servers>
     <server>
-      <id>mavencasts.com</id>
+      <id>test.com</id>
       <username>root</username>
-      <privateKey>/Users/kama/keys/rsa-h5593.serverkompetenz.net.ppk</privateKey>
+      <privateKey>/Users/kama/keys/rsa-server.ppk</privateKey>
     </server>
     <!-- To stage a website of some part of Maven -->
     <server>
       <id>stagingSite</id> <!-- must match hard-coded repository identifier in site:stage-deploy -->
-      <username>khmarbaise</username>
-      <password>{fsPqBHSSFQIH+velFoxYZiUBs7uuN25/KP8o61kNS00=}</password>
+      <username>anton</username>
+      <password>{xxxx}</password>
       <filePermissions>664</filePermissions>
       <directoryPermissions>775</directoryPermissions>
     </server>
@@ -173,12 +173,12 @@ Added server entries with support for keys:
     <server>
       <id>site</id>
       <username>admin</username>
-      <password>admin123</password>
+      <password>admin</password>
     </server>
     <server>
       <id>releases</id>
       <username>admin</username>
-      <password>admin123</password>
+      <password>admin</password>
     </server>
     <server>
       <id>snapshots</id>
